@@ -1,0 +1,46 @@
+.t1 {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+}
+
+.t1:hover {
+  width: 800px;
+}
+
+.t2 {
+  background-color: yellow;
+  width: 400px;
+  height: 200px;
+}
+
+.t2:hover {
+  transition-property: all;
+  width: 1000px;
+  height: 300px;
+  transition-duration: 6s;
+  transition-delay: 2s;
+}
+
+.t3 {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+}
+
+.t3:hover {
+  width: 1200px;
+  transition-duration: 8s;
+}
+
+.t4 {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+}
+
+.t4:hover {
+  width: 1200px;
+  transition-duration: 8s;
+  transition-duration: 8s ease-in-out;
+}
